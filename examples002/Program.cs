@@ -8,8 +8,7 @@ namespace Examples002
         {
             Console.WriteLine("Введите имя:");
             string username = Console.ReadLine();
-            Console.WriteLine("Привет, ");
-            Console. WriteLine(username);
+            Console.WriteLine("Привет, " + username);
         }
     }
 }
