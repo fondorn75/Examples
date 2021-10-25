@@ -1,0 +1,16 @@
+C:\Projects\Examples\examples001\bin\Debug\net5.0\examples001.exe
+C:\Projects\Examples\examples001\bin\Debug\net5.0\examples001.deps.json
+C:\Projects\Examples\examples001\bin\Debug\net5.0\examples001.runtimeconfig.json
+C:\Projects\Examples\examples001\bin\Debug\net5.0\examples001.runtimeconfig.dev.json
+C:\Projects\Examples\examples001\bin\Debug\net5.0\examples001.dll
+C:\Projects\Examples\examples001\bin\Debug\net5.0\ref\examples001.dll
+C:\Projects\Examples\examples001\bin\Debug\net5.0\examples001.pdb
+C:\Projects\Examples\examples001\obj\Debug\net5.0\examples001.csproj.AssemblyReference.cache
+C:\Projects\Examples\examples001\obj\Debug\net5.0\examples001.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Examples\examples001\obj\Debug\net5.0\examples001.AssemblyInfoInputs.cache
+C:\Projects\Examples\examples001\obj\Debug\net5.0\examples001.AssemblyInfo.cs
+C:\Projects\Examples\examples001\obj\Debug\net5.0\examples001.csproj.CoreCompileInputs.cache
+C:\Projects\Examples\examples001\obj\Debug\net5.0\examples001.dll
+C:\Projects\Examples\examples001\obj\Debug\net5.0\ref\examples001.dll
+C:\Projects\Examples\examples001\obj\Debug\net5.0\examples001.pdb
+C:\Projects\Examples\examples001\obj\Debug\net5.0\examples001.genruntimeconfig.cache
