@@ -6,8 +6,10 @@ namespace examples003
     {
         static void Main(string[] args)
         {
-            int numberA = 5;
-            int numberB = 6;
+            int numberA = new Random().Next(1, 10);
+            int numberB = new Random().Next(1, 10);
+            Console.WriteLine(numberA);
+            Console.WriteLine(numberB);
             int result = numberA + numberB;
             Console.WriteLine(result);
         }
