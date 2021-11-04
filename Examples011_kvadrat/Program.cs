@@ -25,14 +25,21 @@ void Diskriminant(int a, int b, int c)
     {
         Console.WriteLine("Дискриминант = " + d);
         Console.WriteLine("есть один корень");
+        x1 = -b + (Math.Sqrt(d) / 2 * a);
         x1 = -b - (Math.Sqrt(d) / 2 * a);
+        Console.WriteLine(x1);
+        Console.WriteLine(x2);
     }
     else if (d > 0)
     {
         Console.WriteLine("Дискриминант = " + d);
         Console.WriteLine("есть два различных корня");
+        x1 = -b + (Math.Sqrt(d) / 2 * a);
+        x1 = -b - (Math.Sqrt(d) / 2 * a);
+        Console.WriteLine(x1);
+        Console.WriteLine(x2);
     }
 
 }
 
-Diskriminant(2, 5, 8);
+Diskriminant(0, 2, 1);
