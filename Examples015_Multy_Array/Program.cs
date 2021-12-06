@@ -107,7 +107,7 @@ int Fibonacchi(int n)
     else return Fibonacchi(n - 1) + Fibonacchi(n - 2);
 }
 
-for (int i = 1; i < 40; i++)
+for (int i = 1; i < 20; i++)
 {
     Console.WriteLine($"f({i}) = {Fibonacchi(i)}");
 }
