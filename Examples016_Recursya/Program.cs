@@ -61,20 +61,33 @@
 
 // Towers();
 
-string emp = string.Empty;
+// string emp = string.Empty;
 
-string[] tree = { emp, "/", "*", "10", "-", "+", emp, emp, "4", "2", "1", "3" };
+// string[] tree = { emp, "/", "*", "10", "-", "+", emp, emp, "4", "2", "1", "3" };
 
-void InOrderTraversal(int pos = 1)
+// void InOrderTraversal(int pos = 1)
+// {
+//     if (pos < tree.Length)
+//     {
+//         int left = 2 * pos;
+//         int right = 2 * pos + 1;
+//         if (left < tree.Length && !string.IsNullOrEmpty(tree[left])) InOrderTraversal(left);
+//         Console.WriteLine(tree[pos]);
+//         if (right < tree.Length && !string.IsNullOrEmpty(tree[right])) InOrderTraversal(right);
+//     }
+// }
+
+// InOrderTraversal();
+
+double Factorial(int n)
 {
-    if (pos < tree.Length)
-    {
-        int left = 2 * pos;
-        int right = 2 * pos + 1;
-        if (left < tree.Length && !string.IsNullOrEmpty(tree[left])) InOrderTraversal(left);
-        Console.WriteLine(tree[pos]);
-        if (right < tree.Length && !string.IsNullOrEmpty(tree[right])) InOrderTraversal(right);
-    }
+    // 1! = 1
+    // 0! = 1
+    if (n == 1) return 1;
+    else return n * Factorial(n - 1);
 }
+for (int i = 1; i < 40; i++)
+{
+    Console.WriteLine($"{i}! = {Factorial(i)}");
 
-InOrderTraversal();
+}
